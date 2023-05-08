@@ -35,12 +35,12 @@ img {
     height: auto;
 }
 
-/* Modificacion del Section */
+/* Modificacion del Section 
 section{
     width: 100%;
     height: 550px;
     background-color: darkturquoise ;
-}
+}*/
 
 footer{
 
@@ -56,6 +56,7 @@ footer{
     display: inline-block;
     text-align: center;
 }
+
 #imgBanner{
     width: 100%;
     height: auto;
@@ -72,12 +73,29 @@ footer{
     background-color: gray;
 }
 
+.imagen_Servicios{
+    width: 500px;
+    height: 300px;
+}
+
 #laboratorio{
     background-color: aliceblue;
 }
 
+.imagen_Laboratorio{
+    width: 500px;
+    height: 300px;
+}
+
 #profesionales{
     background-color: gray;
+}
+
+.imagen_Profesionales{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid black;
 }
 
 #turnos{
