@@ -7,7 +7,7 @@
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 10px;
     background-color: #f2f2f2;
@@ -15,12 +15,15 @@ header {
   }
 
 /* Modificacion del nav */
-
 ul {
     display: flex;
     gap: 20px;
     list-style: none;
     align-items: center;
+}
+
+.linkNav{
+    
 }
 
 a {
@@ -35,15 +38,9 @@ img {
     height: auto;
 }
 
-/* Modificacion del Section 
 section{
-    width: 100%;
-    height: 550px;
-    background-color: darkturquoise ;
-}*/
-
-footer{
-
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #logoNav{
@@ -56,11 +53,16 @@ footer{
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    border-radius: 25px;
+    border: 1px solid black;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 #imgBanner{
     width: 100%;
     height: auto;
+    border-radius: 25px;
 }
 
 #bloqueTextBanner{
@@ -73,6 +75,7 @@ footer{
 
 #servicios{
     background-color: gray;
+    margin-top: 2%;
 }
 
 .imagen_Servicios{
@@ -121,4 +124,21 @@ footer{
 /* Boton de "+INFO" */
 .+info{
 
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footerBloque{
+    align-items: center;
+}
+
+#spaceFooter{
+    
 }
