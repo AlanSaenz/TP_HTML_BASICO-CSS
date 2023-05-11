@@ -39,6 +39,8 @@ img {
 }
 
 section{
+    margin-top: 5px;
+    margin-bottom: 5px;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -48,6 +50,7 @@ section{
     height: 55px
 }
 
+/*  Banner  */
 #banner{
     display: flex;
     justify-content: space-between;
@@ -70,8 +73,11 @@ section{
 }
 
 #textBanner{
-    
+    font-size: x-large;
+    margin: 3px;
 }
+
+/*  Servicios  */
 
 #servicios{
     background-color: gray;
@@ -83,9 +89,18 @@ section{
     height: 150px;
 }
 
+.TituloServiciosBloque{
+    width: 12%;
+}
+
 .TituloServicios{
     font-size: large;
     align-items: center;
+    text-align: center;
+}
+
+.DescripcionServiciosBloque{
+    width: 50%;
     text-align: center;
 }
 
@@ -93,8 +108,33 @@ section{
 
 }
 
+.infoBloque{
+    width: 5%;
+    text-align: center;
+}
+
+.info{
+    border: 0px solid transparent;
+}
+
+/*  Laboratorio  */
+
 #laboratorio{
     background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    
+}
+
+.Bloque_Laboratorio{
+    padding-top: 15px;
+    margin-right: 10px;
+    border: 1px solid black;
+}
+
+.bloqueImagen_Laboratorio{
+    align-items: center;
+    width: 60%;
 }
 
 .imagen_Laboratorio{
@@ -102,8 +142,31 @@ section{
     height: 300px;
 }
 
+.bloqueContenido_Laboratorio{
+    width: 40%;
+    text-align: center;
+}
+
+.descripcion_Laboratorio{
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.boton_Laboratorio{
+    margin-top: 15px;
+}
+
+/*  Profesionales  */
+
 #profesionales{
     background-color: gray;
+    
+}
+
+#TablaProfesionales{
+    display: flex;
+    justify-content: center;
 }
 
 .imagen_Profesionales{
@@ -113,18 +176,22 @@ section{
     border: 3px solid black;
 }
 
+/*  Turnos  */
+
 #turnos{
     background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+/*  Consulta  */
 
 #consulta{
     background-color: gray;
 }
 
-/* Boton de "+INFO" */
-.+info{
-
-}
+/*  Footer  */
 
 footer{
     width: 100%;
@@ -133,6 +200,7 @@ footer{
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin-top: 10px;
 }
 
 .footerBloque{
