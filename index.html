@@ -10,10 +10,11 @@
 </head>
 <body>
 
+    <!-- HEADER -->
     <header>
         <nav>
             <ul>
-                <li><img id="logoNav" src="imagenes/logo.png" alt="Logo" ></li>
+                <li id="logoNav"><img src="imagenes/logo.png" alt="Logo" ></li>
                 <li><h3 id="nombreClinica">Nombre Clinica</h3></li>
                 <li class="linkNav"><a href="#servicios">Servicios</a></li>
                 <li class="linkNav"><a href="#laboratorio">Laboratorio</a></li>
@@ -24,83 +25,108 @@
         </nav>
     </header>
 
+    <!-- BANNER -->
     <article id="banner">
         <div id="bloqueImagenBanner">
             <img id="imgBanner" src="imagenes/banner2.jpg" alt="Banner">
         </div>
         <div id="bloqueTextBanner">
-            <p id="textBanner">Cuidamos de ti y de tu salud en todo momento. Bienvenidos a nuestra clínica médica.</p>
+            <p class="textBanner">Cuidamos de ti y de tu salud en todo momento.</p>
+            <p class="textBanner">Bienvenidos a nuestra clínica médica.</p>
         </div>
     </article>
     
-    
-    <section id="servicios">
+<!-- LAS IMAGENES TIENE QUE TENER UN DEV QUE EL DETERMINE EL ESPACIO, Y QUE LA IMAGEN SE ADAPTE A ESE BLOQUE/ESPACIO --> 
+
+    <!-- SERVICIOS -->
+    <article class="bloque_titulo">
         <h1 class="Titulos">Servicios</h1>
-        <table style="border:1px solid black;">
-        <!--
-            <tr>
-                <th>Nombre del Servicio</th>
-                <th>Imagen</th>
-                <th>Descripcion</th>
-                <th>Boton</th>
-            </tr>
-        -->
+    </article>
+    <section id="Servicio">
 
-        <!-- LAS IMAGENES TIENE QUE TENER UN DEV QUE EL DETERMINE EL ESPACIO, Y QUE LA IMAGEN SE ADAPTE A ESE BLOQUE/ESPACIO -->
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Cuidados intensivos</h3></td>
-                <td class="imagen_ServiciosBloque"><img class="imagen_Servicios" src="imagenes/CuidadosIntensivos.jpg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">La UCI es un área crítica del hospital para pacientes que necesitan atención médica intensiva debido a enfermedades graves o lesiones traumáticas. Contamos con un equipo altamente capacitado de médicos y enfermeras especializadas en cuidados intensivos para brindar atención personalizada y garantizar la recuperación de cada paciente.</p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Cardiologia</h3></td>
-                <td><img class="imagen_Servicios" src="imagenes/Cardiologia.jpg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">La Cardiología es el área de la medicina que se enfoca en el diagnóstico y tratamiento de enfermedades del corazón y del sistema circulatorio.</p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Pediatria</h3></td>
-                <td><img class="imagen_Servicios" src="imagenes/Ped.jpg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">La Pediatría es el área de la medicina que se enfoca en la atención médica de niños y adolescentes. </p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Ginecologia</h3></td>
-                <td><img class="imagen_Servicios" src="imagenes/Ginecologia.jpg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">La Ginecología es el área de la medicina que se enfoca en la atención médica de la salud femenina, especialmente del sistema reproductivo.</p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Radiodiagnostico</h3></td>
-                <td><img class="imagen_Servicios" src="imagenes/Rad.jpg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">El Radiodiagnóstico es el área de la medicina que se enfoca en el uso de técnicas de diagnóstico por imagen para detectar enfermedades y lesiones en el cuerpo humano.</p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Odontolgia</h3></td>
-                <td><img class="imagen_Servicios" src="imagenes/Odont.jpeg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">La Odontología es el área de la medicina que se enfoca en la salud dental y bucal.</p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Cirugia</h3></td>
-                <td><img class="imagen_Servicios" src="imagenes/Cirugia.jpg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">La Cirugía es el área de la medicina que se enfoca en la realización de procedimientos quirúrgicos para tratar enfermedades y lesiones en el cuerpo humano.</p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-            <tr>
-                <td class="TituloServiciosBloque"><h3 class="TituloServicios">Urgencias</h3></td>
-                <td><img class="imagen_Servicios" src="imagenes/Urgencias.jpg" alt="Imagen del Servicio"></td>
-                <td class="DescripcionServiciosBloque"><p class="DescripcionServicios">La atención de Urgencias es un área crítica en la medicina que se enfoca en la atención médica inmediata y urgente para pacientes con enfermedades o lesiones que requieren atención médica inmediata.</p></td>
-                <td class="infoBloque"><button class="info">+ INFO</button></td>
-            </tr>
-        </table>
-    </section>
+        <div class="bloque_contenido_Servicio">
 
-    
-    <section>
+          <div class="bloque_servicios">
+            <img src="imagenes/CuidadosIntensivos.jpg" alt="Cuidados Intensivos">
+            <h2>Cuidados intensivos</h2>
+            <p>La UCI es un área crítica del hospital para pacientes que necesitan atención médica intensiva debido a enfermedades graves o lesiones traumáticas.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+          <div class="bloque_servicios">
+            <img src="imagenes/Cardiologia.jpg" alt="Cardiologia">
+            <h2>Cardiologia</h2>
+            <p>La Cardiología es el área de la medicina que se enfoca en el diagnóstico y tratamiento de enfermedades del corazón y del sistema circulatorio.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+          <div class="bloque_servicios">
+            <img src="imagenes/Ped.jpg" alt="Pediatria">
+            <h2>Pediatria</h2>
+            <p>La Pediatría es el área de la medicina que se enfoca en la atención médica de niños y adolescentes.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+          <div class="bloque_servicios">
+            <img src="imagenes/Ginecologia.jpg" alt="Ginecologia">
+            <h2>Ginecologia</h2>
+            <p>La Ginecología es el área de la medicina que se enfoca en la atención médica de la salud femenina, especialmente del sistema reproductivo.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+          <div class="bloque_servicios">
+            <img src="imagenes/Rad.jpg" alt="Radiodiagnostico">
+            <h2>Radiodiagnostico</h2>
+            <p>El Radiodiagnóstico es el área de la medicina que se enfoca en el uso de técnicas de diagnóstico por imagen para detectar enfermedades y lesiones en el cuerpo humano.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+          <div class="bloque_servicios">
+            <img src="imagenes/Odont.jpeg" alt="Odontolgia">
+            <h2>Odontolgia</h2>
+            <p>La Odontología es el área de la medicina que se enfoca en la salud dental y bucal.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+          <div class="bloque_servicios">
+            <img src="imagenes/Cirugia.jpg" alt="Cirugia">
+            <h2>Cirugia</h2>
+            <p>La Cirugía es el área de la medicina que se enfoca en la realización de procedimientos quirúrgicos para tratar enfermedades y lesiones en el cuerpo humano.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+          <div class="bloque_servicios">
+            <img src="imagenes/Urgencias.jpg" alt="Urgencias">
+            <h2>Urgencias</h2>
+            <p>La atención de Urgencias es un área crítica en la medicina que se enfoca en la atención médica inmediata y urgente para pacientes con enfermedades o lesiones que requieren atención médica inmediata.</p>
+            <button class="btn">
+                <a href="#" class="contenido_btn">Obtener más información</a>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      <!-- LABORATORIO -->
+    <article class="bloque_titulo">
         <h1 class="Titulos">Laboratorio</h1>
+    </article>
+    <section>
         <div id="laboratorio">
 
             <div>
@@ -134,12 +160,14 @@
             </div>
 
         </div>
-
     </section>
 
+    <!-- PROFESIONALES -->
+    <article class="bloque_titulo">
+        <h1 class="Titulos">Profesionales</h1>
+    </article>
     <section id="profesionales">
 <!-- REVISAR LAS CAJAS DE LOS PROFESIONALES, REVISAR PARA QUE QUEDE COMO FLEX (ABEL) -->
-        <h1>Profesionales</h1>
         <table id="TablaProfesionales">
             <tr>
                 <td>
@@ -178,8 +206,11 @@
         </table>
     </section>
 
+    <!-- TURNOS -->
+    <article class="bloque_titulo">
+        <h1 class="Titulos">Horarios y Ubicacion</h1>
+    </article>
     <section id="turnos">
-        
         <table>
             <tr>
                 <th>Servicio</th>
@@ -233,9 +264,14 @@
             </tr>
         </table>
 
-        <aside id="consulta">
-            <h1>Medio de consulta</h1>
-            <p>Podra enviar su consulta por este medio y sera respondido por su numero telefonico</p>
+    </section>
+
+    <!-- FORM -->
+    <article class="bloque_titulo">
+        <h1 class="Titulos">Medio de consulta</h1>
+    </article>
+    <section id="consulta">
+        <p>Podra enviar su consulta por este medio y sera respondido por su numero telefonico</p>
             <form action="">
                 <h4>Nombre completo</h4>
                 <input type="text" placeholder="Nombre completo">
@@ -269,12 +305,9 @@
     
                 <input type="submit" placeholder="Enviar">
             </form>
-        </aside>
-
     </section>
 
-    
-
+    <!-- FOOTER -->
     <footer>
         <div class="contenedor">
             <ul id="footerBloque">
@@ -287,8 +320,8 @@
                       </div>
                 </li>
 
-                <li id="spaceFooter">
-                    <!-- Space -->
+                <li id="logoFooter">
+                    <img src="imagenes/logo.png" alt="Logo Footer" >
                 </li>
       
                   <li>
