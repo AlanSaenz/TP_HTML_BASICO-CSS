@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clinica X</title>
-
     <link rel="stylesheet" href="Style.css">
 </head>
 <body>
@@ -35,8 +34,8 @@
             <p class="textBanner">Bienvenidos a nuestra clínica médica.</p>
         </div>
     </article>
-    
-<!-- LAS IMAGENES TIENE QUE TENER UN DEV QUE EL DETERMINE EL ESPACIO, Y QUE LA IMAGEN SE ADAPTE A ESE BLOQUE/ESPACIO --> 
+
+    <!-- LAS IMAGENES TIENE QUE TENER UN DEV QUE EL DETERMINE EL ESPACIO, Y QUE LA IMAGEN SE ADAPTE A ESE BLOQUE/ESPACIO -->
 
     <!-- SERVICIOS -->
     <article class="bloque_titulo">
@@ -126,39 +125,35 @@
     <article class="bloque_titulo">
         <h1 class="Titulos">Laboratorio</h1>
     </article>
-    <section>
-        <div id="laboratorio">
+    <section id="laboratorio">
+        <div>
+            <table class="Bloque_Laboratorio">
+                <tr>
+                    <td class="bloqueImagen_Laboratorio">
+                        <h2 class="titulo_Laboratorio">Estudios de la sangre</h2>
+                        <img class="imagen_Laboratorio" src="imagenes/EstudioSangre.jpg" alt="Imagen Estudio de sangre">
+                    </td>
+                    <td class="bloqueContenido_Laboratorio">
+                        <p class="descripcion_Laboratorio">Los análisis de sangre son una herramienta vital para evaluar la salud de una persona. A través de ellos, se pueden detectar diversas afecciones y enfermedades, lo que permite a los profesionales de la salud tomar decisiones informadas sobre el tratamiento adecuado.</p>
+                        <button class="boton_Laboratorio">Solicitar Turno</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
 
-            <div>
-                <table class="Bloque_Laboratorio">
-                    <tr>
-                        <td class="bloqueImagen_Laboratorio">
-                            <h2 class="titulo_Laboratorio">Estudios de la sangre</h2>
-                            <img class="imagen_Laboratorio" src="imagenes/EstudioSangre.jpg" alt="Imagen">
-                        </td>
-                        <td class="bloqueContenido_Laboratorio">
-                            <p class="descripcion_Laboratorio">Los análisis de sangre son una herramienta vital para evaluar la salud de una persona. A través de ellos, se pueden detectar diversas afecciones y enfermedades, lo que permite a los profesionales de la salud tomar decisiones informadas sobre el tratamiento adecuado. En nuestra clínica, contamos con tecnología de vanguardia para llevar a cabo una amplia gama de pruebas de laboratorio de alta calidad que pueden ayudar a mejorar la salud y el bienestar de nuestros pacientes</p>
-                            <button class="boton_Laboratorio">Solicitar Turno</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-    
-            <div>
-                <table class="Bloque_Laboratorio">
-                    <tr>
-                        <td class="bloqueImagen_Laboratorio">
-                            <h2 class="titulo_Laboratorio">Donacion de sangre</h2>
-                            <img class="imagen_Laboratorio" src="imagenes/DonacionSangre.jpg" alt="Imagen">
-                        </td>
-                        <td class="bloqueContenido_Laboratorio">
-                            <p class="descripcion_Laboratorio">La donación de sangre es un acto solidario y generoso que puede salvar vidas. En nuestra clínica, estamos comprometidos con la promoción y fomento de la donación de sangre para ayudar a aquellos que necesitan transfusiones de sangre para sobrevivir. Trabajamos con bancos de sangre confiables y seguimos estrictos protocolos de seguridad para garantizar que los donantes y los pacientes estén seguros en todo momento. Donar sangre es un acto sencillo, indoloro y que puede marcar una gran diferencia en la vida de las personas</p>
-                            <button class="boton_Laboratorio">Solicitar Turno</button>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-
+        <div>
+            <table class="Bloque_Laboratorio">
+                <tr>
+                    <td class="bloqueImagen_Laboratorio">
+                        <h2 class="titulo_Laboratorio">Donacion de sangre</h2>
+                        <img class="imagen_Laboratorio" src="imagenes/DonacionSangre.jpg" alt="Imagen donacion de sangre">
+                    </td>
+                    <td class="bloqueContenido_Laboratorio">
+                        <p class="descripcion_Laboratorio">La donación de sangre es un acto solidario y generoso que puede salvar vidas. En nuestra clínica, estamos comprometidos con la promoción y fomento de la donación de sangre para ayudar a aquellos que necesitan transfusiones de sangre para sobrevivir.</p>
+                        <button class="boton_Laboratorio">Solicitar Turno</button>
+                    </td>
+                </tr>
+            </table>
         </div>
     </section>
 
@@ -167,100 +162,94 @@
         <h1 class="Titulos">Profesionales</h1>
     </article>
     <section id="profesionales">
-<!-- REVISAR LAS CAJAS DE LOS PROFESIONALES, REVISAR PARA QUE QUEDE COMO FLEX (ABEL) -->
-        <table id="TablaProfesionales">
-            <tr>
-                <td>
-                    <img class="imagen_Profesionales" src="imagenes/Prof1.jpg" alt="Profesiona 1">
-                    <h3>Dra. Ana García</h3>
-                    <h4>Médico General</h4>
-                </td>
-                <td>
-                    <img class="imagen_Profesionales" src="imagenes/Prof2.jpg" alt="Profesiona 2">
-                    <h3>Lic. Luis Hernández</h3>
-                    <h4>Enfermero Jefe</h4>
-                </td>
-                <td>
-                    <img class="imagen_Profesionales" src="imagenes/Prof3.jpeg" alt="Profesiona 3">
-                    <h3>Dra. Isabel González</h3>
-                    <h4>Especialista en Ginecología</h4>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img class="imagen_Profesionales" src="imagenes/Prof4.jpg" alt="Profesiona 4">
-                    <h3>Dr. Carlos Rodríguez</h3>
-                    <h4>Especialista en Cardiología</h4>
-                </td>
-                <td>
-                    <img class="imagen_Profesionales" src="imagenes/Prof5.jpg" alt="Profesiona 5">
-                    <h3>Lic. Laura Pérez</h3>
-                    <h4>Especialista en Odontolgia</h4>
-                </td>
-                <td>
-                    <img class="imagen_Profesionales" src="imagenes/Prof6.jpeg" alt="Profesiona 6">
-                    <h3>Dra. Julia Fernández</h3>
-                    <h4>Especialista en Radiodiagnóstico</h4>
-                </td>
-            </tr>
-        </table>
+        <div class="contenedor_profesionales">
+            <img class="imagen_Profesionales" src="imagenes/Prof1.jpg" alt="Profesional 1">
+            <h2>Dra. Ana García</h2>
+            <h3>Médico General</h3>
+        </div>
+        <div class="contenedor_profesionales">
+            <img class="imagen_Profesionales" src="imagenes/Prof2.jpg" alt="Profesional 2">
+            <h2>Lic. Luis Hernández</h2>
+            <h3>Enfermero Jefe</h3>
+        </div>
+        <div class="contenedor_profesionales">
+            <img class="imagen_Profesionales" src="imagenes/Prof3.jpeg" alt="Profesional 3">
+            <h2>Dra. Isabel González</h2>
+            <h3>Especialista en Ginecología</h3>
+        </div>
+        <div class="contenedor_profesionales">
+            <img class="imagen_Profesionales" src="imagenes/Prof4.jpg" alt="Profesional 4">
+            <h2>Dr. Carlos Rodríguez</h2>
+            <h3>Especialista en Cardiología</h3>
+        </div>
+        <div class="contenedor_profesionales">
+            <img class="imagen_Profesionales" src="imagenes/Prof5.jpg" alt="Profesional 5">
+            <h2>Lic. Laura Pérez</h2>
+            <h3>Especialista en Odontolgia</h3>
+        </div>
+        <div class="contenedor_profesionales">
+            <img class="imagen_Profesionales" src="imagenes/Prof6.jpeg" alt="Profesional 6">
+            <h2>Dra. Julia Fernández</h2>
+            <h3>Especialista en Radiodiagnóstico</h3>
+        </div>
     </section>
 
     <!-- TURNOS -->
     <article class="bloque_titulo">
         <h1 class="Titulos">Horarios y Ubicacion</h1>
     </article>
+    
     <section id="turnos">
-        <table>
+        <table id="tabla_turnos">
             <tr>
-                <th>Servicio</th>
-                <th>Horario</th>
-                <th>Ubicacion</th>
+                <th class="columna1_turnos"><h2>Servicio</h2></th>
+                <th class="columna2_turnos"><h2>Horario</h2></th>
+                <th class="columna3_turnos"><h2>Ubicacion</h2></th>
             </tr>
             <tr>
-                <td>Cuidados intensivos</td>
-                <td>Abierto las 24 horas</td>
-                <td>Ala Oeste, segundo piso</td>
+                <td class="columna1_turnos">Cuidados intensivos</td>
+                <td class="columna2_turnos">Abierto las 24 horas</td>
+                <td class="columna3_turnos">Ala Oeste, segundo piso</td>
             </tr>
             <tr>
-                <td>Cardiologia</td>
-                <td>Lunes a viernes de 8:00 am a 6:00 pm, sábados de 8:00 am a 12:00 pm</td>
-                <td>Ala Este, primer piso</td>
+                <td class="columna1_turnos">Cardiologia</td>
+                <td class="columna2_turnos">Lunes a viernes de 8:00 am a 6:00 pm, sábados de 8:00 am a 12:00 pm</td>
+                <td class="columna3_turnos">Ala Este, primer piso</td>
             </tr>
             <tr>
-                <td>Pediatria</td>
-                <td>Lunes a viernes de 9:00 am a 7:00 pm, sábados de 9:00 am a 1:00 pm</td>
-                <td>Ala Oeste, primer piso</td>
+                <td class="columna1_turnos">Pediatria</td>
+                <td class="columna2_turnos">Lunes a viernes de 9:00 am a 7:00 pm, sábados de 9:00 am a 1:00 pm</td>
+                <td class="columna3_turnos">Ala Oeste, primer piso</td>
             </tr>
             <tr>
-                <td>Ginecologia</td>
-                <td>Lunes a viernes de 8:00 am a 6:00 pm, sábados de 8:00 am a 12:00 pm</td>
-                <td>Ala Este, segundo piso</td>
+                <td class="columna1_turnos">Ginecologia</td>
+                <td class="columna2_turnos">Lunes a viernes de 8:00 am a 6:00 pm, sábados de 8:00 am a 12:00 pm</td>
+                <td class="columna3_turnos">Ala Este, segundo piso</td>
             </tr>
             <tr>
-                <td>Radiodiagnostico</td>
-                <td>Lunes a viernes de 8:00 am a 6:00 pm, sábados de 8:00 am a 12:00 pm.</td>
-                <td>Ala Oeste, primer piso</td>
+                <td class="columna1_turnos">Radiodiagnostico</td>
+                <td class="columna2_turnos">Lunes a viernes de 8:00 am a 6:00 pm, sábados de 8:00 am a 12:00 pm.</td>
+                <td class="columna3_turnos">Ala Oeste, primer piso</td>
             </tr>
             <tr>
-                <td>Odontolgia</td>
-                <td>Lunes a viernes de 9:00 am a 7:00 pm, sábados de 9:00 am a 1:00 pm</td>
-                <td>Ala Este, segundo piso</td>
+                <td class="columna1_turnos">Odontolgia</td>
+                <td class="columna2_turnos">Lunes a viernes de 9:00 am a 7:00 pm, sábados de 9:00 am a 1:00 pm</td>
+                <td class="columna3_turnos">Ala Este, segundo piso</td>
             </tr>
             <tr>
-                <td>Cirugia</td>
-                <td>Lunes a viernes de 8:00 am a 6:00 pm</td>
-                <td>Ala Oeste, tercer piso</td>
+                <td class="columna1_turnos">Cirugia</td>
+                <td class="columna2_turnos">Lunes a viernes de 8:00 am a 6:00 pm</td>
+                <td class="columna3_turnos">Ala Oeste, tercer piso</td>
             </tr>
             <tr>
-                <td>Urgencias</td>
-                <td>Abierto las 24 horas</td>
-                <td>Ala Este, primer piso</td>
+                <td class="columna1_turnos">Urgencias</td>
+                <td class="columna2_turnos">Abierto las 24 horas</td>
+                <td class="columna3_turnos">Ala Este, primer piso</td>
             </tr>
             <tr>
-                <td>Laboratorio</td>
-                <td>Lunes a viernes de 7:00 am a 4:00 pm, sábados de 7:00 am a 12:00 pm.</td>
-                <td>Ala Oeste, segundo piso</td>
+                <td class="columna1_turnos">Laboratorio</td>
+                <td class="columna2_turnos">Lunes a viernes de 7:00 am a 4:00 pm, sábados de 7:00 am a 12:00 pm.</td>
+                <td class="columna3_turnos">Ala Oeste, segundo piso</td>
             </tr>
         </table>
 
@@ -271,40 +260,62 @@
         <h1 class="Titulos">Medio de consulta</h1>
     </article>
     <section id="consulta">
-        <p>Podra enviar su consulta por este medio y sera respondido por su numero telefonico</p>
-            <form action="">
+
+        <form action="#" id="formulario_contacto">
+
+            <h3 class="texto_consulta">Podra enviar su consulta por este medio y sera respondido por algunos de estos medios propocionado.</h3>
+            <h2 class="texto_consulta">Esperenos que pronto nos comunicaremos con usted.</h2>
+
+            <div class="bloque_form">
                 <h4>Nombre completo</h4>
                 <input type="text" placeholder="Nombre completo">
-    
+            </div>
+
+            <div class="bloque_form">
                 <h4>Telefono</h4>
                 <input type="text" placeholder="Numero de Contacto">
-    
+            </div>
+
+            <div class="bloque_form">
+                <h4>Correo electrónico</h4>
+                <input type="text" placeholder="Correo electronico">
+            </div>
+
+            <div id="bloque_form_radio">
                 <h4>Motivo</h4>
+
                 <label>
                     <input type="radio" name="opciones" value="opcion1">
                     Consulta
                 </label>
-                
+            
                 <label>
                     <input type="radio" name="opciones" value="opcion2">
                     Solicitud de turno
                 </label>
-    
+
                 <label>
                     <input type="radio" name="opciones" value="opcion3">
                     Cancelacion de turno
                 </label>
-    
+
                 <label>
                     <input type="radio" name="opciones" value="opcion4">
                     Otros
                 </label>
-    
+            </div>
+
+            <div id="bloque_form_descripcion">
                 <h4>Descripcion</h4>
-                <input type="text" placeholder="Descripcion">
-    
+                <textarea name="Descripcion" id="Descripcion_form" cols="50" rows="6" placeholder="Descripcion de la solicitud"></textarea>
+            </div>
+
+            <div id="boton_form">
                 <input type="submit" placeholder="Enviar">
-            </form>
+            </div>
+
+        </form>
+
     </section>
 
     <!-- FOOTER -->
@@ -317,7 +328,7 @@
                         <p>Teléfono: XXXX-XXXX</p>
                         <p>Correo electrónico: info@clinica.com</p>
                         <p>Dirección: #XXX, Rio Grande, Argentina</p>
-                      </div>
+                    </div>
                 </li>
 
                 <li id="logoFooter">
@@ -332,7 +343,7 @@
                           <li><a href="#">Instagram<i class="Red-social"></i></a></li>
                           <li><a href="#">Youtube<i class="Red-social"></i></a></li>
                         </ul>
-                      </div>
+                    </div>
                   </li>
             </ul>
             
