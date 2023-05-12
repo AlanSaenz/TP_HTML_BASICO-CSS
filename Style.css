@@ -164,6 +164,8 @@ section{
     width: 100%;
     max-width: 1000px;
     margin-bottom: 30px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
   }
   
   .bloqueImagen_Laboratorio {
@@ -184,7 +186,6 @@ section{
   
   .bloqueContenido_Laboratorio {
     padding: 20px;
-    background-color: #f9f9f9;
   }
   
   .descripcion_Laboratorio {
